@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<!DOCTYPE facdetail [
+<!ELEMENT facdetail (faculty)>
+<!ELEMENT faculty (name,designation,subject,section)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT designation (#PCDATA)>
+<!ELEMENT subject (#PCDATA)>
+<!ELEMENT section (#PCDATA)>
+]>
+<facdetail>
+<faculty>
+<name>A</name>
+<designation>ASS. PROF</designation>
+<subject>SUB 1</subject>
+<section>SEC 1</section>
+</faculty>
+<faculty>
+<name>B</name>
+<designation>ASS. PROF</designation>
+<subject>SUB 2</subject>
+<section>SEC 2</section>
+</faculty>
+<faculty>
+<name>C</name>
+<designation>ASS. PROF</designation>
+<subject>SUB 3</subject>
+<section>SEC 3</section>
+</faculty>
+<faculty>
+<name>D</name>
+<designation>ASS. PROF</designation>
+<subject>SUB 4</subject>
+<section>SEC 4</section>
+</faculty>
+</facdetail>
