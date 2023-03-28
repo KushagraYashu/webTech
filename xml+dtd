@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<!DOCTYPE faculty [
+<!ELEMENT faculty (facultyName, designation, subject, section)>
+<!ELEMENT facultyName (#PCDATA)>
+<!ELEMENT designation (#PCDATA)>
+<!ELEMENT subject (#PCDATA)>
+<!ELEMENT section (#PCDATA)>
+]>
+<faculty>
+
+<faculty>
+<facultyName> Dr. Rakesh Aggarwal </facultyName>
+<designation> Asst. Prof. </designation>
+<subject>Engineering Physics</subject>
+<section>CSE 1</section>
+</faculty>
+
+<faculty>
+<facultyName> Mr. Amit Kumar </facultyName>
+<designation> Asst. Prof. </designation>
+<subject>Engineering Mathematics</subject>
+<section>CSE 2</section>
+</faculty>
+
+<faculty>
+<facultyName>Mr. Abhishek Singh</facultyName>
+<designation> Asst. Prof. </designation>
+<subject>Engineering Chemistry</subject>
+<section>CSE 3</section>
+</faculty>
+
+</faculty>
